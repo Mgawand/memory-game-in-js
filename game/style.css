@@ -1,0 +1,79 @@
+.board-container {
+  height: 400px;
+  width: 400px;
+}
+
+.board-container .row {
+  height: 100%;
+}
+
+.board-square {
+  border: 2px solid #f7f7f7;
+  height: 25%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.square-container {
+  height: 200%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  transition: 500ms;
+}
+
+.flipped .square-container {
+  top: -100%;
+}
+
+.up-square,
+.down-square {
+  height: 50%;
+}
+
+/* .up-square { */
+/* background-color: coral */
+/* } */
+
+.down-square {
+  background-color: #d0d0d0;
+}
+
+#reset-button {
+  margin: 15px 80px 0;
+  width: 350px;
+}
+
+/* Colors */
+
+.color-0 {
+  background-color: aqua;
+}
+
+.color-1 {
+  background-color: bisque;
+}
+
+.color-2 {
+  background-color: blue;
+}
+
+.color-3 {
+  background-color: blueviolet;
+}
+
+.color-4 {
+  background-color: brown;
+}
+
+.color-5 {
+  background-color: cadetblue;
+}
+
+.color-6 {
+  background-color: chartreuse;
+}
+
+.color-7 {
+  background-color: coral;
+}
